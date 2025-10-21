@@ -2,4 +2,259 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+/* ------------------ HEADER ------------------ */
+header {
+  display: flex;
+  height: 56px;
+  /* Reverting back to flex-start for the main container */
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px 16px; /* Optional: for visibility */
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+/* ------------------ LEFT SECTION ------------------ */
+.left__section {
+  display: flex;
+  align-items: center;
+}
+
+.hamburger__menu {
+  height: 40px;
+  width: 40px;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: background-color 0.2s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+.hamburger__menu:hover {
+  background-color: rgb(240, 240, 240);
+}
+
+.youtube__logo {
+  display: flex;
+  align-items: center;
+  height: 56px;
+  width: 122px;
+  padding: 8px 0px 8px 16px; /* Adjust left padding for spacing */
+}
+.logo {
+  height: 34px; /* Adjusted height for better look */
+  cursor: pointer;
+  color: red;
+  margin-right: 2px;
+}
+.youtube__text {
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: -1px;
+  cursor: pointer;
+  color: black;
+}
+
+/* ------------------ MIDDLE SECTION (The Flex Fix) ------------------ */
+.middle__section {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  /* CRITICAL FIX: Center the items (search tool and mic button) 
+               within this wide container */
+  justify-content: center;
+  margin: 0;
+  /* Add some margin to separate from left/right sections */
+  margin: 0 40px;
+  min-width: 0; /* Important for flex to shrink properly on mobile */
+}
+
+.search__tool {
+  display: flex;
+  /* Revert margin: 0 auto; to allow inner item (search__bar) to grow */
+  margin: 0;
+
+  padding: 0px 4px 0px 4px;
+  flex-direction: row;
+  flex-grow: 0;
+  flex-shrink: 1;
+}
+
+.search__bar {
+  /* Input field must grow inside its parent (.search__tool) */
+  flex-grow: 1;
+  flex-shrink: 1;
+  width: auto;
+  height: 38.4px;
+
+  /* REMOVE margin-left: 32px; */
+  margin-left: 0px;
+
+  padding-left: 16px;
+  padding-right: 4px;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-style: solid;
+  border-width: 1px; /* Slightly thicker border for visibility */
+  border-color: rgb(210, 210, 210);
+  box-shadow: none;
+  color: black;
+  cursor: text;
+  max-width: 632px; /* Key limit for the max size */
+}
+
+.search__button {
+  height: 38.4px;
+  width: 64px;
+  border-color: rgb(210, 210, 210);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0px 40px 40px 0px;
+  margin-left: -1px;
+  cursor: pointer;
+  background-color: rgb(245, 245, 245);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.2s;
+}
+.search__button:hover {
+  background-color: rgb(235, 235, 235);
+}
+
+.search__icon {
+  /* Using a simple text icon */
+  height: 24px;
+  width: 24px;
+  color: #333;
+}
+
+.search__bar::placeholder {
+  font-size: 16px;
+  color: #777;
+}
+
+.mic__button {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border-style: none;
+  background-color: rgb(240, 240, 240);
+  margin-left: 12px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mic__button:hover {
+  background-color: rgb(230, 230, 230);
+}
+.mic__icon {
+  /* Using a simple text icon */
+  height: 26px;
+
+  width: 26px;
+
+  object-position: center;
+  color: #333;
+}
+
+/* ------------------ RIGHT SECTION ------------------ */
+.right__section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 16px;
+  height: 56px;
+  margin-left: auto; /* Pushes the right section all the way to the edge */
+}
+
+.icon-button {
+  height: 40px;
+  width: 40px;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 50%;
+  margin-left: 8px;
+  transition: background-color 0.2s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+.icon-button:hover {
+  background-color: rgb(240, 240, 240);
+}
+.upload__icon {
+
+  height: 26px;
+
+  object-position: center;
+
+  display: inline-block;
+
+  margin: 0;
+
+  padding: 0;
+
+}
+.upload__button {
+  height: 36px;
+  border-radius: 18px;
+  border: none;
+  background-color: rgb(245, 245, 245);
+  cursor: pointer;
+  width: auto;
+  padding: 0 16px; /* Adjusted padding */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 8px;
+  transition: background-color 0.2s;
+}
+.upload__button:hover {
+  background-color: rgb(235, 235, 235);
+}
+.bell__icon {
+
+  height: 40px;
+
+  padding: 8px;
+
+  cursor: pointer;
+
+  border-radius: 50%;
+
+  margin-left: 8px;
+
+}
+
+.bell__icon:hover {
+
+  background-color: rgb(245, 245, 245);
+
+}
+.profile__picture {
+  height: 32px;
+  width: 32px;
+  cursor: pointer;
+  border-radius: 50%;
+  margin-left: 8px;
+  background-color: #aaa; /* Placeholder color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
 }
