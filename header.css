@@ -148,7 +148,33 @@ header {
   border-radius: 50%;
   margin-left: 8px;
 }
-@media screen and (min-width: 500px) and (max-width: 756px) {
+@media screen and (max-width: 1186px) {
+  header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .search__tool {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .middle__section {
+    margin-left: auto;
+    margin-right: 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .youtube__logo {
+    margin-right: auto;
+  }
+  .mic__button {
+    margin-right: 8px;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 656px) {
   .search__bar {
     display: none;
   }
@@ -160,6 +186,7 @@ header {
   }
   .middle__section {
     margin: 0;
+    margin-left: auto;
     display: flex;
     justify-content: flex-end;
     align-items: center;
