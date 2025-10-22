@@ -1,0 +1,56 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 56px;
+  top: 0px;
+  z-index: 999;
+  position: fixed;
+  right: 0px;
+  left: 20px;
+  background-color: white;
+}
+.left__section {
+  background-color: lightcyan;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hamburger__container{
+    padding: 8px;
+}
+.hamburger__menu{
+    height: 24px;
+    cursor: pointer;
+}
+.youtube__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 56px;
+  width: 123px;
+}
+.youtube__icon{
+    width: 37.2px;
+}
+.youtube__text{
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: -1.2px;
+}
+
+.middle__section {
+  background-color: lightpink;
+  margin-left: 70px;
+  margin-right: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right__section {
+  background-color: lightgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
