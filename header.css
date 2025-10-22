@@ -6,23 +6,22 @@ header {
   top: 0px;
   z-index: 999;
   position: fixed;
-  right: 0px;
+  right: 20px;
   left: 20px;
   background-color: white;
 }
 .left__section {
-  background-color: lightcyan;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.hamburger__container{
-    padding: 8px;
+.hamburger__container {
+  padding: 8px;
 }
-.hamburger__menu{
-    height: 24px;
-    cursor: pointer;
+.hamburger__menu {
+  height: 24px;
+  cursor: pointer;
 }
 .youtube__logo {
   display: flex;
@@ -31,17 +30,16 @@ header {
   height: 56px;
   width: 123px;
 }
-.youtube__icon{
-    width: 37.2px;
+.youtube__icon {
+  width: 37.2px;
 }
-.youtube__text{
-    font-weight: bold;
-    font-size: 18px;
-    letter-spacing: -1.2px;
+.youtube__text {
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: -1.2px;
 }
 
 .middle__section {
-  background-color: lightpink;
   margin-left: 70px;
   margin-right: 35px;
   display: flex;
@@ -49,61 +47,103 @@ header {
   align-items: center;
   flex: 1;
 }
-.search__tool{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-    padding: 0 4px;
-    margin: 0 0 0 40px;
-}
-.search__bar{
-    flex: 1;
-    height: 38.4px;
-    padding: 0 4px 0px 16px;
-    border: 0.8px solid #e6e6e6;
-    border-radius: 40px 0 0px 40px;
-    margin: 0 0 0 32px;
-    width: 0;
-}
-.search__bar::placeholder{
-    padding: 1px 0px;
-    line-height: 22px;
-    font-weight: 500;
-    font-size: 14px;
-}
-.search__button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 38.4px;
-    border: 0.8px solid #eaeaea;
-    border-top-right-radius: 40px;
-    border-bottom-right-radius: 40px;
-    padding: 8px 20px 8px 20px;
-    width: 64px;
-    background-color: #fbfafa;
-}
-.search__icon{
-    height: 24px;
-}
-.mic__button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
-    width: 40px;
-    border: 0.8px solid #eaeaea;
-    border-radius: 40px;
-    background-color: #fbfafa;
-    margin-left: 8px;
-}
-.mic__icon{
-    height: 24px;
-}
-.right__section {
-  background-color: lightgreen;
+.search__tool {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex: 1;
+  padding: 0 4px;
+  margin: 0 0 0 40px;
+  max-width: 579.2px;
+}
+.search__bar {
+  flex: 1;
+  height: 38.4px;
+  padding: 0 4px 0px 16px;
+  border: 0.8px solid #e6e6e6;
+  border-radius: 40px 0 0px 40px;
+  margin: 0 0 0 32px;
+  width: 0;
+  max-width: 515.2px;
+}
+.search__bar::placeholder {
+  padding: 1px 0px;
+  line-height: 22px;
+  font-weight: 500;
+  font-size: 14px;
+}
+.search__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 38.4px;
+  border: 0.8px solid #eaeaea;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  padding: 8px 20px 8px 20px;
+  width: 64px;
+  background-color: #fbfafa;
+}
+.search__icon {
+  height: 24px;
+}
+.mic__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  border: 0.8px solid #eaeaea;
+  border-radius: 40px;
+  background-color: #fbfafa;
+  margin-left: 8px;
+}
+.mic__icon {
+  height: 24px;
+}
+.right__section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.upload__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto, arial;
+  font-weight: 500;
+  width: 97.18px;
+  height: 36px;
+  border: 0.8px solid #eaeaea;
+  border-radius: 40px;
+  background-color: #fbfafa;
+}
+.upload__icon {
+  height: 26px;
+  padding: 0;
+}
+.upload__text {
+  font-size: 14px;
+  padding-left: 4px;
+}
+.bell__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+  margin-left: 8px;
+}
+.bell__button:hover {
+  background-color: #fbfafa;
+  border: 0.8px solid #eaeaea;
+}
+.bell__icon {
+  height: 24px;
+}
+.profile__picture {
+  height: 32px;
+  border-radius: 50%;
+  margin-left: 8px;
 }
