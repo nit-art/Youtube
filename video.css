@@ -1,0 +1,6 @@
+.video__container{
+    display: grid;
+    padding-left: 100px;
+    padding-top: 75px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
