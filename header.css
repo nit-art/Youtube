@@ -30,6 +30,7 @@ header {
   align-items: center;
   height: 56px;
   width: 123px;
+  cursor: pointer;
 }
 .youtube__icon {
   width: 37.2px;
