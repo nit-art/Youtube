@@ -23,30 +23,27 @@
   font-weight: 500;
   line-height: 22px;
   margin-top: 0px;
-  cursor: pointer;
 }
 .video__profile {
   margin-right: 12px;
-  cursor: pointer;
 }
 .video__author {
   font-size: 14px;
   font-weight: 400;
   color: rgb(170, 170, 170);
   margin-top: 2px;
-  cursor: pointer;
 }
 .video__stats {
   font-size: 14px;
   font-weight: 400;
   color: rgb(170, 170, 170);
   margin-top: 2px;
-  cursor: pointer;
 }
 .video__info {
   display: grid;
   grid-template-columns: 50px 1fr;
   margin-top: 0px;
+  cursor: pointer;
 }
 .video__profile .profile__picture {
   width: 40px;
