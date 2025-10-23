@@ -32,6 +32,7 @@
 }
 @media screen and (max-width: 791.5px) {
   .tags {
-    left: 0px;
+    left: 15px;
+    right: 15px;
   }
 }
