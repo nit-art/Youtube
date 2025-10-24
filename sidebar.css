@@ -1,3 +1,4 @@
+/* Navigation__bar */
 nav {
   height: 332px;
   display: flex;
@@ -12,6 +13,7 @@ nav {
   margin-left: 14px;
   margin-top: 8px;
 }
+/* Navigation__links */
 .navlinks {
   height: 64px;
   width: 64px;
@@ -21,19 +23,20 @@ nav {
   align-items: center;
   padding: 16px 0 14px 0;
 }
-.navlinks img{
+.navlinks img {
   height: 24px;
   width: 24px;
 }
-.navlinks p{
+.navlinks p {
   font-size: 10px;
-  font-family: Roboto,arial;
+  font-family: Roboto, arial;
   line-height: 14px;
   font-weight: 400;
   margin-top: 4px;
 }
-@media screen and (max-width:791.5px){
-  nav{
+/* Media__Querry */
+@media screen and (max-width: 791.5px) {
+  nav {
     display: none;
   }
 }
