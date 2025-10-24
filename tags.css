@@ -1,3 +1,4 @@
+/* Navigation__tags__container */
 .tags {
   padding: 0 14px;
   display: flex;
@@ -16,6 +17,7 @@
   padding-bottom: 10px;
   overflow-x: scroll;
 }
+/* Navigation__Tags */
 .genre {
   background-color: rgb(240, 240, 240);
   border: 1px solid rgb(240, 240, 240);
