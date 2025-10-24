@@ -30,6 +30,7 @@
   white-space: nowrap;
   overflow: hidden;
 }
+/* Media__Querry */
 @media screen and (max-width: 791.5px) {
   .tags {
     left: 15px;
