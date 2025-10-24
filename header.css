@@ -12,6 +12,7 @@ header {
   background-color: white;
   padding: 0 16px;
 }
+/* Left__Section */
 .left__section {
   display: flex;
   justify-content: center;
@@ -41,7 +42,7 @@ header {
   font-size: 18px;
   letter-spacing: -1.2px;
 }
-
+/* Middle__Section */
 .middle__section {
   margin-left: 70px;
   margin-right: 35px;
@@ -107,6 +108,7 @@ header {
 .mic__icon {
   height: 24px;
 }
+/* Right__Section */
 .right__section {
   display: flex;
   justify-content: center;
@@ -156,6 +158,7 @@ header {
   margin-left: 8px;
   cursor: pointer;
 }
+/* Media__Querry */
 @media screen and (max-width: 1186px) {
   header {
     display: flex;
