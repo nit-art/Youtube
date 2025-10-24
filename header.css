@@ -1,3 +1,4 @@
+/* Header Navigation */
 header {
   display: flex;
   justify-content: space-between;
@@ -101,6 +102,7 @@ header {
   border-radius: 40px;
   background-color: #fbfafa;
   margin-left: 8px;
+  cursor: pointer;
 }
 .mic__icon {
   height: 24px;
@@ -121,6 +123,7 @@ header {
   border: 0.8px solid #eaeaea;
   border-radius: 40px;
   background-color: #fbfafa;
+  cursor: pointer;
 }
 .upload__icon {
   height: 26px;
@@ -138,6 +141,7 @@ header {
   width: 40px;
   border-radius: 40px;
   margin-left: 8px;
+  cursor: pointer;
 }
 .bell__button:hover {
   background-color: #fbfafa;
@@ -150,6 +154,7 @@ header {
   height: 32px;
   border-radius: 50%;
   margin-left: 8px;
+  cursor: pointer;
 }
 @media screen and (max-width: 1186px) {
   header {
