@@ -4,15 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Youtube</title>
-    <link rel="stylesheet" href="./css/index.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/header.css" />
-    <link rel="stylesheet" href="./css/sidebar.css" />
-    <link rel="stylesheet" href="./css/video.css" />
-    <link rel="stylesheet" href="./css/tags.css" />
     <link
       rel="stylesheet"
       href="https://unicons.iconscout.com/release/v4.2.0/css/line.css"
@@ -52,224 +48,16 @@
           </button>
         </div>
         <div class="nav-section nav-right">
-          
-        </div>
-        <div class="right__section">
-          <button class="upload__button">
-            <img
-              src="./_images/icons/plus.png"
-              alt="upload"
-              class="upload__icon"
-            /><span><p class="upload__text">Create</p></span>
+          <button class="nav-button theme-button">
+            <i class="uil uil-moon"></i>
           </button>
-          <div class="bell__button">
-            <img src="./_images/icons/bell.png" alt="bell" class="bell__icon" />
-          </div>
-          <div class="profile__button">
-            <img
-              src="./_images/Profile/channels4_profile.jpg"
-              alt="profile_picture"
-              class="profile__picture"
-            />
-          </div>
+          <img
+            src="./_images/Profile/channels4_profile.jpg"
+            alt="User Image"
+            class="user-image"
+          />
         </div>
       </nav>
     </header>
-    <!-- Sidebar__Navigation -->
-    <nav>
-      <div class="navlinks">
-        <img src="./_images/icons/home.png" alt="home" />
-        <p>Home</p>
-      </div>
-      <div class="navlinks">
-        <img src="./_images/icons/shorts.png" alt="shorts" />
-        <p>Shorts</p>
-      </div>
-      <div class="navlinks">
-        <img src="./_images/icons/subs.png" alt="subs" />
-        <p>Subscriptions</p>
-      </div>
-      <div class="navlinks">
-        <img src="./_images/icons/profile.png" alt="profile" />
-        <p>You</p>
-      </div>
-    </nav>
-    <!-- Video__Section -->
-    <div class="video__grid">
-      <div class="video__container">
-        <div class="thumbnail__container">
-          <img
-            src="./_images/Thumnails/videoimg1.avif"
-            alt=""
-            class="thumbnail"
-          />
-        </div>
-        <div class="video__info">
-          <div class="video__profile">
-            <img
-              src="./_images/Thumnails/videoimg1.avif"
-              alt=""
-              class="profile__picture"
-            />
-          </div>
-          <div class="video__text">
-            <div class="video__title">
-              <p>Build Infinite Carousel Animations in 4 Minutes</p>
-            </div>
-            <div class="video__author"><p>Coding2GO</p></div>
-            <div class="video__stats"><p>38K views • 1 month ago</p></div>
-          </div>
-        </div>
-      </div>
-      <div class="video__container">
-        <div class="thumbnail__container">
-          <img
-            src="./_images/Thumnails/videoimg2.avif"
-            alt=""
-            class="thumbnail"
-          />
-        </div>
-        <div class="video__info">
-          <div class="video__profile">
-            <img
-              src="./_images/Thumnails/videoimg2.avif"
-              alt=""
-              class="profile__picture"
-            />
-          </div>
-          <div class="video__text">
-            <div class="video__title">
-              <p>EVERYTHING People Get Wrong About Zombie Apocalypses</p>
-            </div>
-            <div class="video__author"><p>How Not To Die</p></div>
-            <div class="video__stats"><p>36K views • 3 days ago</p></div>
-          </div>
-        </div>
-      </div>
-      <div class="video__container">
-        <div class="thumbnail__container">
-          <img
-            src="./_images/Thumnails/videoimg3.avif"
-            alt=""
-            class="thumbnail"
-          />
-        </div>
-        <div class="video__info">
-          <div class="video__profile">
-            <img
-              src="./_images/Thumnails/videoimg3.avif"
-              alt=""
-              class="profile__picture"
-            />
-          </div>
-          <div class="video__text">
-            <div class="video__title">
-              <p>
-                10 days are completed of challenge to become a web developer
-                from sigma web development course #yt
-              </p>
-            </div>
-            <div class="video__author"><p>shivam sahu</p></div>
-            <div class="video__stats"><p>618 views • 1 day ago</p></div>
-          </div>
-        </div>
-      </div>
-      <div class="video__container">
-        <div class="thumbnail__container">
-          <img
-            src="./_images/Thumnails/videoimg4.avif"
-            alt=""
-            class="thumbnail"
-          />
-        </div>
-        <div class="video__info">
-          <div class="video__profile">
-            <img
-              src="./_images/Thumnails/videoimg4.avif"
-              alt=""
-              class="profile__picture"
-            />
-          </div>
-          <div class="video__text">
-            <div class="video__title">
-              <p>How to Start Making Games with No Experience</p>
-            </div>
-            <div class="video__author"><p>Goodgis</p></div>
-            <div class="video__stats"><p>623K views • 1 year ago</p></div>
-          </div>
-        </div>
-      </div>
-      <div class="video__container">
-        <div class="thumbnail__container">
-          <img
-            src="./_images/Thumnails/videoimg5.avif"
-            alt=""
-            class="thumbnail"
-          />
-        </div>
-        <div class="video__info">
-          <div class="video__profile">
-            <img
-              src="./_images/Thumnails/videoimg5.avif"
-              alt=""
-              class="profile__picture"
-            />
-          </div>
-          <div class="video__text">
-            <div class="video__title">
-              <p>
-                Animate On Scroll With Just 3 LINES Of CSS (No Libraries Needed)
-              </p>
-            </div>
-            <div class="video__author"><p>Snippets Code</p></div>
-            <div class="video__stats"><p>557K views • 1 year ago</p></div>
-          </div>
-        </div>
-      </div>
-      <div class="video__container">
-        <div class="thumbnail__container">
-          <img
-            src="./_images/Thumnails/videoimg6.avif"
-            alt=""
-            class="thumbnail"
-          />
-        </div>
-        <div class="video__info">
-          <div class="video__profile">
-            <img
-              src="./_images/Thumnails/videoimg6.avif"
-              alt=""
-              class="profile__picture"
-            />
-          </div>
-          <div class="video__text">
-            <div class="video__title">
-              <p>
-                Telugu Thriller with MOST TWISTS in the End - Tribanadhari
-                Barbarik Explained in Hindi
-              </p>
-            </div>
-            <div class="video__author"><p>Haunting Tube</p></div>
-            <div class="video__stats"><p>250K views • 7 days ago</p></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Navigation__tags -->
-    <div class="tags">
-      <div class="genre"><p>All</p></div>
-      <div class="genre"><p>Gaming</p></div>
-      <div class="genre"><p>Novel</p></div>
-      <div class="genre"><p>Comic Books</p></div>
-      <div class="genre"><p>Music</p></div>
-      <div class="genre"><p>Computer Programming</p></div>
-      <div class="genre"><p>Video Game Development</p></div>
-      <div class="genre"><p>Study Skills</p></div>
-      <div class="genre"><p>Action Adventure</p></div>
-      <div class="genre"><p>3D Modelling</p></div>
-      <div class="genre"><p>Recently uploaded</p></div>
-      <div class="genre"><p>Comedy</p></div>
-      <div class="genre"><p>Watched</p></div>
-    </div>
   </body>
 </html>
