@@ -6,6 +6,16 @@
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
 }
+:root {
+  --white-color: #ff0000;
+  --black-color: #282828;
+  --light-white-color: #121212;
+  --light-gray-color: #ffffff;
+  --border-color: #383838;
+  --primary-color: #3c3c3c; 
+  --secondary-color: #505050;
+  --overlay-dark-color: #3a3a3a;
+}
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -23,4 +33,13 @@
   width: 32px;
   cursor: pointer;
   border-radius: 50%;
+}
+.navbar .nav-logo{
+  display: flex;
+  gap: 0.5rem;
+  text-decoration: none;
+}
+.navbar .nav-logo .logo-text{
+  font-size: 1.2rem;
+
 }
