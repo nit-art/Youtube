@@ -7,39 +7,12 @@
   font-family: "Open Sans", sans-serif;
 }
 :root {
-  --white-color: #ff0000;
-  --black-color: #282828;
-  --light-white-color: #121212;
-  --light-gray-color: #ffffff;
-  --border-color: #383838;
-  --primary-color: #3c3c3c; 
-  --secondary-color: #505050;
-  --overlay-dark-color: #3a3a3a;
-}
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  padding: 0.5rem 1rem;
-  align-items: center;
-}
-.navbar :where(.nav-section, .search-form, .nav-logo) {
-  display: flex;
-  align-items: center;
-}
-.navbar .nav-section {
-  gap: 1rem;
-}
-.navbar :where(.logo-image, .user-image) {
-  width: 32px;
-  cursor: pointer;
-  border-radius: 50%;
-}
-.navbar .nav-logo{
-  display: flex;
-  gap: 0.5rem;
-  text-decoration: none;
-}
-.navbar .nav-logo .logo-text{
-  font-size: 1.2rem;
-
+  --white-color: #fff;
+  --black-color: #000;
+  --light-white-color: #f0f0f0;
+  --light-gray-color: #e5e5e5;
+  --border-color: #d4d4d4;
+  --primary-color: #3b82f6;
+  --secondary-color: #404040;
+  --overlay-dark-color: rgba(0, 0, 0, 0.6);
 }
