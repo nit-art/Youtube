@@ -1,11 +1,23 @@
-*{
+/* Importing Google Font - Open Sans */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-body{
+:root {
+  --white-color: #fff;
+  --black-color: #000;
+  --light-white-color: #f0f0f0;
+  --light-gray-color: #e5e5e5;
+  --border-color: #d4d4d4;
+  --primary-color: #3b82f6;
+  --secondary-color: #404040;
+  --overlay-dark-color: rgba(0, 0, 0, 0.6);
+}
+body {
   height: 3000px;
-  font-family: Roboto,arial;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   text-decoration: none;
 }
